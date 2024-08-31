@@ -8,11 +8,11 @@ import { Ideal } from './ideals/entities/ideal.entity';
     TypeOrmModule.forRootAsync({
       useFactory: async () => ({
         type: 'postgres',
-        host: 'localhost',
-        port: 5432,
-        username: process.env.DATABASE_USERNAME,
-        password: process.env.DATABASE_PASSWORD,
-        database: process.env.DATABASE_NAME,
+        host: process.env.PGHOST,
+        port: parseInt(process.env.PGPORT),
+        username: process.env.PGUSER,
+        password: String (process.env.PGPASSWORD),
+        database: process.env.PGDATABASE,
         entities: [Ideal],
         synchronize: true,
       }),
