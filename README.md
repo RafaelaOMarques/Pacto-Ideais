@@ -14,7 +14,7 @@ Desenvolvida com Node v.18, NestJS e TypeScript.
 
 ## Features
 1. [Back-end]: Implementação da entidade Ideals para possibilitar o cadastro de ideias a partir de determinada ODS.
-2. [Back-end]: Disponibilizada de forma simplificada a consulta das ODS definidas em um arquivo de constantes.
+2. [Back-end]: Disponibilizada de forma simplificada a consulta das ODS definidas em um arquivo de constantes e Swagger.
 
 A SER IMPLEMENTADO FUTURAMENTE
 
@@ -56,6 +56,7 @@ Para iniciar o servidor no modo desenvolvimento:
 npm run start:dev
 ```
 
+Para consultar a Api via Swagger: http://localhost:3000/api#/
 <br>
 <br>
 <br>
