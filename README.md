@@ -1,73 +1,65 @@
+# PACTO DE IDEIAS
+
+Projeto que tem por objetivo disponibilizar a sociedade uma ferramenta para envio de ideias baseadas nas propostas das 17 ODS, e servir as entidades publicas como um catologo de ideias para implementação de projetos e políticas públicas.
+Desenvolvida com Node v.18, NestJS e TypeScript.
+
+## Stack Tecnológico
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="https://nodejs.org/" target="blank"><img src="https://nodejs.org/static/images/logo.svg" width="50" alt="Node.js Logo" /></a>
+  <a href="https://www.typescriptlang.org/" target="blank"><img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" width="50" alt="TypeScript Logo" /></a>
+  <!-- <a href="https://junit.org/junit5/" target="blank"><img src="https://junit.org/junit5/assets/img/junit5-logo.png" width="50" alt="JUnit Logo" /></a> -->
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="50" alt="Nest Logo" /></a>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Features
+1. [Back-end]: Implementação da entidade Ideals para possibilitar o cadastro de ideias a partir de determinada ODS.
+2. [Back-end]: Disponibilizada de forma simplificada a consulta das ODS definidas em um arquivo de constantes.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+A SER IMPLEMENTADO FUTURAMENTE
 
-## Description
+3. [Back-end]: Cadastro de usuários e login.
+4. [Back-end]: Testes unitários.
+5. [Front-end]: Telas
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Instalação
 
-## Installation
+1. Clone o repositório no terminal:
 
-```bash
-$ npm install
-```
+   ```bash
+   git clone https://github.com/RafaelaOMarques/Pacto-Ideais.git
+   ```
 
-## Running the app
+   Concluido o clone, acesse o repositorio
 
-```bash
-# development
-$ npm run start
+   ```bash
+   cd Pacto-Ideias
+   ```
 
-# watch mode
-$ npm run start:dev
+   Abra-o no vs code com
 
-# production mode
-$ npm run start:prod
-```
+   ```bash
+   code .
+   ```
 
-## Test
+2. Instale as dependências
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+ npm install
 ```
 
-## Support
+## Executando o projeto
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Para iniciar o servidor no modo desenvolvimento:
 
-## Stay in touch
+```bash
+npm run start:dev
+```
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+<br>
+<br>
+<br>
+<br>
 
-## License
-
-Nest is [MIT licensed](LICENSE).
+- Author - [Rafaela Oliveira Marques](https://github.com/RafaelaOMarques/Pacto-Ideais.git)
+- LinkedIn - [/in/rafaelaoliveiramarques/](https://www.linkedin.com/in/rafaelaoliveiramarques/)

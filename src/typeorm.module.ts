@@ -1,4 +1,3 @@
-import { DataSource } from 'typeorm';
 import { Global, Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Ideal } from './ideals/entities/ideal.entity';

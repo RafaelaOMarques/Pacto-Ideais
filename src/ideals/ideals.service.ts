@@ -1,5 +1,4 @@
 import { BadRequestException, Injectable } from '@nestjs/common';
-import { CreateIdealDto } from './dto/create-ideal.dto';
 import { IdealsRepository } from './ideals.repository';
 import { Ideal } from './entities/ideal.entity';
 import { ODS } from '../shared/constants/ods.constantes';
